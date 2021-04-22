@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# FansEat (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Description](#description)
+- [Technologies](#technologies)
+- [Demo](#demo)
+- [User story](#user-story)
 
-In the project directory, you can run:
+## Description
 
-### `yarn start`
+This is front end code of FansEat project which is built with React, Redux, and Material UI. This web app would help those homemaker (including myself) to save lots of time for think of what to have for breakfast, lunch, or dinner. You can browser what breakfast or dinner that other people have. Also, when you find what you want, you can go to the iPrice page to check the average price of ingredients (vegetable).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+FansEat is created with:
 
-### `yarn test`
+- react: 17.0.2
+- react-redux: 7.2.3
+- react-router-dom: 5.2.0
+- redux: 4.0.5
+- redux-thunk: 2.3.0
+- material-ui/core: 4.11.3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `yarn build`
+### Index
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Imgur](https://i.imgur.com/Hu0GqrT.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Create a post
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Imgur](https://i.imgur.com/a0VHAOk.gif)
 
-### `yarn eject`
+### modify user's auth
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Imgur](https://i.imgur.com/Ywnxw9e.gif)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## User Story
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### As an administrator
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- You can browser a list of all users
+- You can modify user's auth, activaite or deactivate or their auth
+- You can get how many users are using your web app
 
-## Learn More
+### As a user
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- You can sign up / sign in an account
+- You can get your profile data
+- You can modify your profile data (user name, full name, email)
+- You can post a meal
+- You can check what you just post on index page
+- You can check your all posts on account page
+- You can check the average price for your meal's ingredient
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### FansEat backend
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[fanseat backend](https://github.com/oscarwang913/fans_eat_backend)
