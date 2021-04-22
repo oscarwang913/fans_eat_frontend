@@ -26,15 +26,15 @@ FansEat is created with:
 
 ### Index
 
-![Imgur](https://i.imgur.com/Hu0GqrT.gifv)
+![Imgur](https://i.imgur.com/SvTgdch.png)
 
 ### Create a post
 
-![Imgur](https://i.imgur.com/a0VHAOk.gifv)
+![Imgur](https://i.imgur.com/DoCqoy6.png)
 
 ### modify user's auth
 
-![Imgur](https://i.imgur.com/Ywnxw9e.gifv)
+![Imgur](https://i.imgur.com/AZfh3yy.png)
 
 ## User Story
 
