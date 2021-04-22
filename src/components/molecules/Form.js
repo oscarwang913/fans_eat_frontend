@@ -444,7 +444,7 @@ SignupForm.propTypes = {
   handlePasswordChange: PropTypes.func.isRequired,
   alertMsg: PropTypes.string,
   disabled: PropTypes.bool,
-  error: PropTypes.bool,
+  error: PropTypes.array,
 };
 
 SigninForm.propTypes = {
@@ -453,7 +453,7 @@ SigninForm.propTypes = {
   handlePasswordChange: PropTypes.func.isRequired,
   alertMsg: PropTypes.string,
   disabled: PropTypes.bool,
-  error: PropTypes.bool,
+  error: PropTypes.array,
 };
 
 AccountForm.propTypes = {

@@ -24,6 +24,16 @@ FansEat is created with:
 
 ## Demo
 
+### test user
+
+- admin
+  email: admin@gmail.com
+  password: adminadmin123
+
+- user
+  email: qoo123@gmail.com
+  password: qoo900KKK
+
 ### Index
 
 ![Imgur](https://i.imgur.com/SvTgdch.png)
