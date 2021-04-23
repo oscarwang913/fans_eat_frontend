@@ -60,9 +60,11 @@ FansEat is created with:
 - You can get your profile data
 - You can modify your profile data (user name, full name, email)
 - You can post a meal
+- You can update a specific meal
 - You can check what you just post on index page
 - You can check your all posts on account page
 - You can check the average price for your meal's ingredient
+- You can post a like to your or other posts
 
 ### FansEat backend
 
